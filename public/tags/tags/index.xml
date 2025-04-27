@@ -1,0 +1,59 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Bronze Age Blog</title>
+	<link>http://localhost:1313/tags/tags/</link>
+	<description>Recent content in Tags on Bronze Age Blog</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Tue, 11 Mar 2025 21:21:51 -0400</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/tags/tags/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Example</title>
+		<link>http://localhost:1313/example/</link>
+		<pubDate>Tue, 11 Mar 2025 21:21:51 -0400</pubDate>
+		
+		<guid>http://localhost:1313/example/</guid>
+		<description>&lt;p&gt;here is some content&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;list&lt;/li&gt;
+&lt;li&gt;items&lt;/li&gt;
+&lt;li&gt;here&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Example Copy</title>
+		<link>http://localhost:1313/example-copy/</link>
+		<pubDate>Tue, 11 Mar 2025 21:21:51 -0400</pubDate>
+		
+		<guid>http://localhost:1313/example-copy/</guid>
+		<description>&lt;p&gt;here is some content&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;list&lt;/li&gt;
+&lt;li&gt;items&lt;/li&gt;
+&lt;li&gt;here&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Example Copy Copy</title>
+		<link>http://localhost:1313/example-copy-copy/</link>
+		<pubDate>Tue, 11 Mar 2025 21:21:51 -0400</pubDate>
+		
+		<guid>http://localhost:1313/example-copy-copy/</guid>
+		<description>&lt;p&gt;here is some content&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;list&lt;/li&gt;
+&lt;li&gt;items&lt;/li&gt;
+&lt;li&gt;here&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>

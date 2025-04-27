@@ -1,0 +1,22 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Blog of Copper and Tin'
+theme = 'hugo-dpsg'
+[Params.style.vars]
+  highlightColor = '#0d305a'
+  fontFamilyPrimary = 'Gentium Plus'
+  fontFamilySecondary = 'Times New Roman'
+[Params.Author]
+  name = 'Richard Gwinn'
+  bio = 'I am Richard'
+  avatar = 'img/richard.jpg'
+[Params.logo]
+  header = "img/banner.png" # Header image. Path relative to "static"
+[Params.sidebar]
+  home = "left" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  widgets = ["author", "search", "recent", "taglist"]
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = true # Enable counter for each tag in "Tags" widget
