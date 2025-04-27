@@ -2,6 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Blog of Copper and Tin'
 theme = 'hugo-dpsg'
+themesDir = '../themes'
 [Params.style.vars]
   highlightColor = '#0d305a'
   fontFamilyPrimary = 'Gentium Plus'
