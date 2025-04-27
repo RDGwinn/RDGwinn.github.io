@@ -8,7 +8,7 @@ theme = 'hugo-dpsg'
   fontFamilySecondary = 'Times New Roman'
 [Params.Author]
   name = 'Richard Gwinn'
-  bio = 'I am Richard'
+  bio = 'I am Richard Gwinn, I have a background in Business Administration, but I am passionate about history, specifically the Bronze Age and Medieval period. This blog is dedicated to sharing throughts, insights, and analysis of a wide array of historical subjects.'
   avatar = 'img/richard.jpg'
 [Params.logo]
   header = "img/banner.png" # Header image. Path relative to "static"
