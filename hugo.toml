@@ -1,7 +1,9 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Blog of Copper and Tin'
+title = 'The Bronze Blog'
 theme = 'hugo-dpsg'
+[Params]
+  description = 'This Blog is Nine Parts Copper and One Part Tin'
 [Params.style.vars]
   highlightColor = '#0d305a'
   fontFamilyPrimary = 'Gentium Plus'
