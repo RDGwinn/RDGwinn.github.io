@@ -20,3 +20,6 @@ theme = 'hugo-dpsg'
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
   tags_counter = true # Enable counter for each tag in "Tags" widget
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
