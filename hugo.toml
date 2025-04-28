@@ -14,7 +14,7 @@ theme = 'hugo-dpsg'
   avatar = 'img/richard.jpg'
 [Params.logo]
   header = "img/banner.png" # Header image. Path relative to "static"
-  subtitle = 'This Blog is Nine Parts Copper and One Part Tin'
+  subtitle = 'This blog is roughly nine parts copper and one part tin'
 [Params.sidebar]
   home = "left" # Configure layout for home page
   list = "right"  # Configure layout for list pages
