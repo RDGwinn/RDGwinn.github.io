@@ -1,32 +1,32 @@
 {{ define "main" }}
 <main class="main list" role="main">
-	{{- with .Title }}
-	<header class="main__header">
-		<h1 class="main__title">{{ . }}</h1>
-	</header>
-	{{- end }}
-	{{- if .Site.Params.belowTitlePartial }}{{ partial .Site.Params.belowTitlePartial . }}{{ end }}
-	{{- with .Content }}
-	<div class="content main__content clearfix">
-		{{ . }}
-	</div>
-	{{- end }}
+    {{- with .Title }}
+    <header class="main__header">
+        <h1 class="main__title">{{ . }}</h1>
+    </header>
+    {{- end }}
+    {{- if .Site.Params.belowTitlePartial }}{{ partial .Site.Params.belowTitlePartial . }}{{ end }}
+    {{- with .Content }}
+    <div class="content main__content clearfix">
+        {{ . }}
+    </div>
+    {{- end }}
 
-	<!-- Loop through posts without pagination -->
-	<div class="posts">
-		{{ range where .Site.RegularPages "Type" "in" site.Params.mainSections }}
-			<div class="post-preview">
-				<a href="{{ .Permalink }}">
-					<h2>{{ .Title }}</h2>
-					<p>{{ .Summary }}</p>
-				</a>
-			</div>
-		{{ end }}
-	</div>
+    <!-- Loop through all regular pages -->
+    <div class="posts">
+        {{ range .Site.RegularPages.ByDate.Reverse }}
+            <div class="post-preview">
+                <a href="{{ .Permalink }}">
+                    <h2>{{ .Title }}</h2>
+                    <p>{{ .Summary }}</p>
+                </a>
+            </div>
+        {{ end }}
+    </div>
 
-	<!-- Optional: Pagination if indexPager = true -->
-	{{ if .Site.Params.indexPager }}
-		{{ partial "pagination.html" . }}
-	{{ end }}
+    <!-- Optional: Pagination if indexPager = true -->
+    {{ if .Site.Params.indexPager }}
+        {{ partial "pagination.html" . }}
+    {{ end }}
 </main>
 {{ end }}

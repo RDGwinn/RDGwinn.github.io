@@ -5,7 +5,7 @@ theme = 'hugo-dpsg'
 
 [Params]
   indexPager = true  # Enable pagination
-  mainSections = ["page", "post"]  # Include everything under content/
+  mainSections = [""]
 
 [Params.style.vars]
   highlightColor = '#0d305a'
