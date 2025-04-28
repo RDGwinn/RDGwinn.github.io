@@ -12,21 +12,19 @@
 	</div>
 	{{- end }}
 
-	<!-- Loop through all posts without pagination -->
+	<!-- Loop through posts without pagination -->
 	<div class="posts">
-		{{ range .Site.Pages }}
-			{{ if eq .Type "post" }} <!-- Check if the page is a "post" -->
-				<div class="post-preview">
-					<a href="{{ .Permalink }}">
-						<h2>{{ .Title }}</h2>
-						<p>{{ .Summary }}</p> <!-- Displays the summary of the post -->
-					</a>
-				</div>
-			{{ end }}
+		{{ range where .Site.RegularPages "Type" "in" site.Params.mainSections }}
+			<div class="post-preview">
+				<a href="{{ .Permalink }}">
+					<h2>{{ .Title }}</h2>
+					<p>{{ .Summary }}</p>
+				</a>
+			</div>
 		{{ end }}
 	</div>
 
-	<!-- Optional: Add pagination if you still want it for some sections -->
+	<!-- Optional: Pagination if indexPager = true -->
 	{{ if .Site.Params.indexPager }}
 		{{ partial "pagination.html" . }}
 	{{ end }}

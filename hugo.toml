@@ -1,28 +1,36 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://RDGwinn.github.io/'
 languageCode = 'en-us'
 title = 'The Bronze Blog'
 theme = 'hugo-dpsg'
+
 [Params]
+  indexPager = true  # Enable pagination
+  mainSections = ["page", "post"]  # Include everything under content/
 
 [Params.style.vars]
   highlightColor = '#0d305a'
   fontFamilyPrimary = 'Gentium Plus'
   fontFamilySecondary = 'Times New Roman'
+
 [Params.Author]
   name = 'Richard Gwinn'
   bio = 'I am Richard Gwinn, I have a background in Business Administration, but I am passionate about history, specifically the Bronze Age and Medieval period. This blog is dedicated to sharing throughts, insights, and analysis of a wide array of historical subjects.'
   avatar = 'img/richard.jpg'
+
 [Params.logo]
-  header = "img/banner.png" # Header image. Path relative to "static"
+  header = 'img/banner.png' # Header image. Path relative to "static"
   subtitle = 'This blog is roughly nine parts copper and one part tin'
+
 [Params.sidebar]
-  home = "left" # Configure layout for home page
-  list = "right"  # Configure layout for list pages
-  single = false # Configure layout for single pages
-  widgets = ["author", "search", "recent", "taglist"]
+  home = 'left'
+  list = 'right'
+  single = false
+  widgets = ['author', 'search', 'recent', 'taglist']
+
 [Params.widgets]
-  recent_num = 5 # Set the number of articles in the "Recent articles" widget
-  tags_counter = true # Enable counter for each tag in "Tags" widget
+  recent_num = 5
+  tags_counter = true
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
