@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'The Bronze Blog'
 theme = 'hugo-dpsg'
 [Params]
-  description = 'This Blog is Nine Parts Copper and One Part Tin'
+
 [Params.style.vars]
   highlightColor = '#0d305a'
   fontFamilyPrimary = 'Gentium Plus'
@@ -14,6 +14,7 @@ theme = 'hugo-dpsg'
   avatar = 'img/richard.jpg'
 [Params.logo]
   header = "img/banner.png" # Header image. Path relative to "static"
+  subtitle = 'This Blog is Nine Parts Copper and One Part Tin'
 [Params.sidebar]
   home = "left" # Configure layout for home page
   list = "right"  # Configure layout for list pages
