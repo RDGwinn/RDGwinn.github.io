@@ -14,7 +14,7 @@
 
 	<!-- Loop through all posts without pagination -->
 	<div class="posts">
-		{{ range .Site.RegularPages }}
+		{{ range .Site.Pages }}
 			{{ if eq .Type "post" }} <!-- Check if the page is a "post" -->
 				<div class="post-preview">
 					<a href="{{ .Permalink }}">
