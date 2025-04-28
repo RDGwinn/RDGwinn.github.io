@@ -11,22 +11,24 @@
 		{{ . }}
 	</div>
 	{{- end }}
-	{{- if .Site.Params.indexPager -}}
-		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-		{{- range $paginator.Pages }}
-			{{- .Render "summary" }}
-		{{- end }}
-		{{- if and (eq $paginator.TotalNumberOfElements 0) (not $.Content) }}
-			<div class="warning">
-				{{ partial "svg/files.svg" (dict "class" "warning__icon") }}
-				<h3 class="warning__headline">{{ T "noposts_warning_title" | safeHTML }}</h3>
-				<div class="warning__text">
-					<p class="warning__description">{{ T "noposts_warning_description" | safeHTML }}</p>
-					<p class="warning__tip">{{ T "noposts_warning_tip" | safeHTML }}</p>
+
+	<!-- Loop through all posts without pagination -->
+	<div class="posts">
+		{{ range .Site.RegularPages }}
+			{{ if eq .Type "post" }} <!-- Check if the page is a "post" -->
+				<div class="post-preview">
+					<a href="{{ .Permalink }}">
+						<h2>{{ .Title }}</h2>
+						<p>{{ .Summary }}</p> <!-- Displays the summary of the post -->
+					</a>
 				</div>
-			</div>
-		{{- end }}
+			{{ end }}
+		{{ end }}
+	</div>
+
+	<!-- Optional: Add pagination if you still want it for some sections -->
+	{{ if .Site.Params.indexPager }}
 		{{ partial "pagination.html" . }}
-	{{- end }}
+	{{ end }}
 </main>
 {{ end }}
