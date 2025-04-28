@@ -18,7 +18,9 @@
 				{{ with $logoTitle -}}
 					<div class="logo__item logo__text">
 						<div class="logo__title">{{ . }}</div>
-						{{ with $logoSubtitle }}<div class="logo__tagline">{{ . }}</div>{{ end }}
+						{{ with $logoSubtitle }}
+							<div class="logo__tagline site-subtitle">{{ . }}</div> <!-- ← ADDED class here -->
+						{{ end }}
 					</div>
 				{{- end }}
 			</a>
