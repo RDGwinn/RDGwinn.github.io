@@ -9,7 +9,6 @@ Sarah Gooll Putnam Diaries - Introduction
 
 April 28th, 2025
 
-
 The Massachusetts Historical Society (MHS) is a nonprofit organization devoted to analyzing and collecting materials which further the understanding of the history of Massachusetts. Within their collection are the diaries of Sarah Gooll Putnam (1851-1912). Putnam was a Boston born painter who studied in New York, Munich, and Holland, painted mostly with oil based paint, and documented her life in twenty-eight volumes of diaries starting at the age of nine. She was very well traveled, and recorded her visits to Europe, the American south and west. Her notes are full of sketches of what she had seen at the time of a given entry.
 
 Scans of Putnam’s diaries are available to the public, and the MHS has begun a digital volunteer project to transcribe all twenty-eight volumes. The text below is my own transcription effort and is not a final or official MHS version of her work. Still, as I read through her travels, I found a clear window into the past. The beats of her narrative and the pacing of her words bring the late 19th and early 20th centuries to the present and at times read like an authentic, in-person conversion. It is interesting to discover how locations, activities, and experiences in her pages contain similarities between her life and the present as well as how they reveal the time in which the dairies were written.
@@ -22,7 +21,7 @@ Below are the most recent crowd-sourced transcriptions I have completed, and hav
 
 [1871-05-31]
 
-131.
+131
 
 May-June. 1871 -- New York
 
@@ -41,8 +40,6 @@ Valley train.) The only difference from this rail-road and the one we came in, w
 ---
 
 **Vol. 11, 1 April 1871 - 17 March 1873, Image 109**
-
-132.
 
 June. N. York.
 
