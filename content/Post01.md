@@ -25,7 +25,7 @@ Below are the most recent crowd-sourced transcriptions I have completed, and hav
 
 May-June. 1871 -- New York
 
-Valley train.) The only difference from this rail-road and the one we came in, was that one went along the right bank of the river, and the other, the left. We did not stop at Bethlehem, but steamed right on to New York, We ran into a shower, and reached New Y. at about four o'clock. The canal boats we saw on the way, are so picturesque -- At New York, Nelly left us, as she was to join the Spooners, at Albemarle [drawing 1] Hotel, while we were going to pass a day or so, at Mrs. Fearings, 29 Lafayette Place, where Mary, and Charley, were. [drawings 2, 3]
+Valley train. The only difference from this rail-road and the one we came in, was that one went along the right bank of the river, and the other, the left. We did not stop at Bethlehem, but steamed right on to New York, We ran into a shower, and reached New Y. at about four o'clock. The canal boats we saw on the way, are so picturesque -- At New York, Nelly left us, as she was to join the Spooners, at Albemarle [drawing 1] Hotel, while we were going to pass a day or so, at Mrs. Fearings, 29 Lafayette Place, where Mary, and Charley, were. [drawings 2, 3]
 
 [drawing 1: train route along river with locations marked by symbols for reference; caption: This little sketch is to show how our train ran round almost in a circle, following the turnings of the river. Our train came steaming through the valley marked X, and turned round to the foreground []. It ran through the valley + I think -- The little boat is to show you where the river is, which wound in among the hills. This was just above Penn Haven. I sketched the view from our car window.]
 
